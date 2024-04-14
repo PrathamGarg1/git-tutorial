@@ -1,0 +1,97 @@
+*{
+  overflow: hidden  ;
+}
+
+.full{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  background-color:aqua;
+  text-align: center;
+  text-decoration: solid;
+  font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;  
+  margin-top: 0px;
+  width: 100%;
+  color: blue;
+}
+
+.wow{
+  background-color: bisque;
+  margin-top: 0px;
+  color: brown;
+  
+  width: 30%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  text-transform: uppercase;
+}
+
+.enj{
+  text-align: center;
+  font-size: 40px;
+}
+
+.add,.container{
+  display: flex;
+  padding: 10px;
+  flex-direction:row;
+  width: 100%;
+  gap: 10%;
+  justify-content: center;
+}
+
+#inputid,.karm{
+  height: 50px;
+  padding-left: 10px;
+  width: 30%;
+}
+#dtid,.time{
+  height: 50px;
+  width:20%;
+  padding-left: 10px;
+}
+#addbtn{
+  height: 50px;  
+  font-size: 20px;
+  background-color: green;
+  color: aliceblue;
+  border-radius: 10%;
+  
+}
+#addbtn-woww{
+  background-color: red;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10%;
+  color: aliceblue;
+}
+
+.container{
+  min-width: 100%;
+  
+}
+
+.karm{
+  font-size: 20px;
+}
+
+.time   {
+  font-size: 20px;
+  
+}
+
+.main{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+input{
+  height: 30px;
+}
